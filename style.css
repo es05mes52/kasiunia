@@ -39,6 +39,25 @@ button{
     font-weight: bold;
     cursor: pointer;
 }
+    operator-btn{
+        width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(0, 60%, 20%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+
+    }
+    operator-btn:hover
+    {
+        background-color:hsl(0, 60%, 30%);
+    }
+    operator-btn:active{
+    background-btn:hsl(0,60%, 20%);
+    }
 
 button:hover{
     background-color: hsl(120, 100%, 20%);
