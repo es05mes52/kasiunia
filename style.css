@@ -19,6 +19,7 @@ body{
     font-size: 5rem;
     text-align: left;
     border: none;
+    background-color: hsl(0, 60%, 30%);
 }
 
 #keys{
@@ -39,8 +40,8 @@ button{
     font-weight: bold;
     cursor: pointer;
 }
-    operator-btn{
-        width: 100px;
+.operator-btn{
+    width: 100px;
     height: 100px;
     border-radius: 50px;
     border: none;
@@ -51,11 +52,11 @@ button{
     cursor: pointer;
 
     }
-    operator-btn:hover
+.operator-btn:hover
     {
         background-color:hsl(0, 60%, 30%);
     }
-    operator-btn:active{
+    .operator-btn:active{
     background-btn:hsl(0,60%, 20%);
     }
 
