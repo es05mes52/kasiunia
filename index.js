@@ -4,7 +4,7 @@ function appendToDisplay(input){
     display.value += input;
 }
 
-function cleanDisplay(){
+function clearDisplay(){
     display.value = "";
 }
 
